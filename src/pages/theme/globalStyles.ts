@@ -22,6 +22,11 @@ export const GlobalStyles = createGlobalStyle`
         transition: all ease-in-out 250ms;
     }
 
+    textarea,
+    input {
+        font-family: 'Manrope', cursive;
+    }   
+
     #nprogress .bar {
         background: ${themeVariables.colors.primary};
     }
