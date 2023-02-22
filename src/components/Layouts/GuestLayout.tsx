@@ -1,12 +1,12 @@
 import React from "react";
-import { GuestLayoutContainer } from ".";
+import { LayoutContainer } from ".";
 import Navigation from "../Common/Navigation";
 
 const GuestLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 	return (
 		<>
 			<Navigation />
-			<GuestLayoutContainer>{children}</GuestLayoutContainer>
+			<LayoutContainer>{children}</LayoutContainer>
 		</>
 	);
 };

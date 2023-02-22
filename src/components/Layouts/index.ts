@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const GuestLayoutContainer = styled.main`
+export const LayoutContainer = styled.main`
 	max-width: 1024px;
 	margin: auto;
 `;

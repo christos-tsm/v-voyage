@@ -22,4 +22,8 @@ export const GlobalStyles = createGlobalStyle`
         transition: all ease-in-out 250ms;
     }
 
+    #nprogress .bar {
+        background: ${themeVariables.colors.primary};
+    }
+
 `;

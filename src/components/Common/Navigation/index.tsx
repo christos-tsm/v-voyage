@@ -24,7 +24,7 @@ const Navigation = () => {
 							<Link href="/">Ανακοινώσεις</Link>
 						</NavigationMenuItem>
 						<NavigationMenuItem className="btn">
-							<Link href="/">Είσοδος</Link>
+							<Link href="/auth/signin">Είσοδος</Link>
 						</NavigationMenuItem>
 					</NavigationMenu>
 				</NavigationMenuContainer>
